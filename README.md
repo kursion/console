@@ -1,8 +1,7 @@
 # console
-A simple light module gathering tools for console.
+A simple light module gathering tools for console working with python2 & python3.
 
 # Console colors
-
 Console implementation with text colored. Available modules:
 
 * `console.log`
@@ -13,9 +12,8 @@ Console implementation with text colored. Available modules:
 * `console.header`
 
 ```python
-import console.colors as consoleColors
+import py_console.colors as console
 
-console = consoleColors
 console.warning("Warning example")
 console.error("Error example")
 console.log("Log example")
